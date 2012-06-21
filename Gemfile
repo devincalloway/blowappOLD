@@ -8,7 +8,7 @@ gem 'rails', '3.2.6'
 gem 'mysql2'
 gem "activeadmin", "~> 0.4.4"
 gem "meta_search",    '>= 1.1.0.pre'
-gem 'acts_as_commentable_with_threading'
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -29,7 +29,7 @@ gem "cucumber-rails", ">= 1.3.0", :group => :test
 gem "capybara", ">= 1.1.2", :group => :test
 gem "database_cleaner", ">= 0.7.2", :group => :test
 gem "launchy", ">= 2.1.0", :group => :test
-gem "devise", ">= 2.1.0.rc"
+gem 'devise'
 gem "cancan", ">= 1.6.7"
 gem "rolify", ">= 3.1.0"
 gem "bootstrap-sass", ">= 2.0.1"
