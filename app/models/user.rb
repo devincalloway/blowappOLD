@@ -15,4 +15,7 @@ class User < ActiveRecord::Base
   #validates presence and uniqueness of the “name” attribute
   validates_presence_of :name
   validates_uniqueness_of :name, :email, :case_sensitive => false
+  
+  #Associate User to Blog Posts
+  has_many :posts
 end
